@@ -1,4 +1,4 @@
-# Hra kostky...
+# HRA KOSTKY
 import random
 
 jedna = '''  
