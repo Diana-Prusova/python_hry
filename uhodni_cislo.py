@@ -12,6 +12,7 @@ logo = """
 | |    | |__| | | \ \  / ____ \  / /__    | |    | |____ 
 |_|     \____/|_|  \_\/_/    \_\/_____|   |_|     \_____|
 """
+
 oddelovac1 = "-" * 50
 oddelovac2 = "=" * 58
 obtiznost = ("easy", "hard")
@@ -25,8 +26,8 @@ print(f"{logo}\n{oddelovac2}\n\nVítej v naší hádací hře!\n"
       "Dokážeš porazit počítač? Uhodni číslo od 1 do 100 a vyhraješ!")
 
 while repete:
-    # VOLBA OBTÍŽNOSTI
     
+    # VOLBA OBTÍŽNOSTI
     zvolena_obtiznost = input("Zvol si obtížnost hry ('easy' = lehka; 'hard' = tězka): ")
     zvolena_obtiznost = zvolena_obtiznost.lower()
     
