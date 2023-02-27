@@ -35,9 +35,9 @@ while repete:
         continue
     else:
         if zvolena_obtiznost == "easy":
-            pocet_pokusu += 10
+            pocet_pokusu = 10
         elif zvolena_obtiznost == "hard":
-            pocet_pokusu += 5
+            pocet_pokusu = 5
 
     # HÁDÁNÍ ČÍSLA
     hadane_cislo = random.randint(1, 100)
@@ -72,6 +72,7 @@ while repete:
             print("Neplatná volba, zkus to znovu...")
         elif pokracovani == "ano":
             os.system("cls")
+            print(logo)
             break
         elif pokracovani == "ne":
             repete = False
